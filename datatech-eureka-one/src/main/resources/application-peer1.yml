@@ -12,4 +12,3 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://peer2:8802/eureka/,http://peer3:8803/eureka/
-

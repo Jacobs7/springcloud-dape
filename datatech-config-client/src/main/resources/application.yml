@@ -16,3 +16,4 @@ eureka:
       defaultZone: http://peer1:8801/eureka
   instance:
     hostname: peer1
+

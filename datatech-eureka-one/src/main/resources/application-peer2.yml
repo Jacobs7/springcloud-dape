@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-datatech
+server:
+  port: 8802
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: peer2
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://peer1:8801/eureka/,http://peer3:8803/eureka/
+

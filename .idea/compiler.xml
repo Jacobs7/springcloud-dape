@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="datatech-config" />
+        <module name="datatech-config-client" />
+        <module name="datatech-eureka-one" />
+        <module name="datatech-server-upms-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="datatech-eureka-three" target="1.8" />
+      <module name="datatech-eureka-two" target="1.8" />
+      <module name="datatech-server-client" target="1.8" />
+      <module name="datatech-server-upms-consumer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="datatech-config" options="-parameters" />
+      <module name="datatech-config-client" options="-parameters" />
+      <module name="datatech-eureka-one" options="-parameters" />
+      <module name="datatech-eureka-three" options="-parameters" />
+      <module name="datatech-eureka-two" options="-parameters" />
+      <module name="datatech-server-client" options="-parameters" />
+      <module name="datatech-server-upms-consumer" options="-parameters" />
+      <module name="datatech-server-upms-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -6,5 +6,25 @@ spring:
       label: master
       uri: http://peer1:8888
       profile: dev
+      discovery:
+        enabled: true
 server:
   port: 8881
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://peer1:8801/eureka
+  instance:
+    hostname: peer1
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

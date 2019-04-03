@@ -6,12 +6,14 @@ spring:
       label: master
       uri: http://peer1:8888
       profile: dev
+      discovery:
+        enabled: true
 server:
   port: 8881
 eureka:
   client:
-    fetch-registry: false
-    register-with-eureka: false
+    fetch-registry: true
+    register-with-eureka: true
     service-url:
       defaultZone: http://peer1:8801/eureka
   instance:

@@ -4,18 +4,19 @@ spring:
   cloud:
     config:
       label: master
-      uri: http://peer1:8888
+      uri: http://peer1:8888                   #配置中心地址
       profile: dev
       discovery:
-        enabled: true
+        enabled: true                          #
+        service-id: config-server              #服务名称
 server:
-  port: 8881
+  port: 8881                                   #服务端口
 eureka:
   client:
-    fetch-registry: false
-    register-with-eureka: false
+    fetch-registry: true
+    register-with-eureka: true
     service-url:
-      defaultZone: http://peer1:8801/eureka
+      defaultZone: http://peer1:8801/eureka    #注册中心地址
   instance:
     hostname: peer1
 rabbitmq:
@@ -27,4 +28,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: "*"  #监听程序配置 spring-boot-starter-actuator

@@ -1,6 +1,9 @@
+server:
+  port: 8881                                   #服务端口
 spring:
   application:
     name: config-client
+  profiles: dev                                #开发环境
   cloud:
     config:
       label: master
@@ -9,8 +12,6 @@ spring:
       discovery:
         enabled: true                          #
         service-id: config-server              #服务名称
-server:
-  port: 8881                                   #服务端口
 eureka:
   client:
     fetch-registry: true
@@ -24,8 +25,8 @@ rabbitmq:
   port: 5672
   username: guest
   password: guest
-management:
+management:           #spring-boot-starter-actuator 监听插件
   endpoints:
     web:
       exposure:
-        include: "*"  #监听程序配置 spring-boot-starter-actuator
+        include: "*"  #监听程序配置

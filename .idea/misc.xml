@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/datatech-server-upms/pom.xml" />
         <option value="$PROJECT_DIR$/datatech-config/pom.xml" />
         <option value="$PROJECT_DIR$/datatech-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/datatech-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/datatech-admin-client/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="datatech-admin" />
+        <module name="datatech-admin-client" />
         <module name="datatech-config" />
         <module name="datatech-config-client" />
         <module name="datatech-eureka-one" />
@@ -21,6 +23,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="datatech-admin" options="-parameters" />
+      <module name="datatech-admin-client" options="-parameters" />
       <module name="datatech-config" options="-parameters" />
       <module name="datatech-config-client" options="-parameters" />
       <module name="datatech-eureka-one" options="-parameters" />

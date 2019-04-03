@@ -14,5 +14,6 @@
         <module>datatech-eureka-one</module>
         <module>datatech-server-upms-provider</module>
         <module>datatech-config</module>
+        <module>datatech-config-client</module>
     </modules>
 </project>

@@ -6,6 +6,8 @@ spring:
       label: master
       uri: http://peer1:8888
       profile: dev
+      discovery:
+        enabled: true
 server:
   port: 8881
 eureka:

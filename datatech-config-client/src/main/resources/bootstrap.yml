@@ -3,30 +3,8 @@ server:
 spring:
   application:
     name: config-client
-  profiles: dev
   cloud:
     config:
       label: master
       uri: http://peer1:8888
       profile: dev
-      discovery:
-        enabled: true
-        service-id: config-server
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://peer1:8801/eureka/
-  instance:
-    hostname: peer1
-rabbitmq:
-  host: localhost
-  port: 5672
-  username: guest
-  password: guest
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"

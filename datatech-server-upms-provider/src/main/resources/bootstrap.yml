@@ -8,8 +8,3 @@ spring:
       label: master
       uri: http://peer1:8888
       profile: dev
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"

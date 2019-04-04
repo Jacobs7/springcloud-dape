@@ -10,6 +10,7 @@
         <module name="datatech-admin-client" />
         <module name="datatech-config" />
         <module name="datatech-config-client" />
+        <module name="datatech-controller-upms-consumer" />
         <module name="datatech-eureka-one" />
         <module name="datatech-server-upms-provider" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="datatech-admin-client" options="-parameters" />
       <module name="datatech-config" options="-parameters" />
       <module name="datatech-config-client" options="-parameters" />
+      <module name="datatech-controller-upms-consumer" options="-parameters" />
       <module name="datatech-eureka-one" options="-parameters" />
       <module name="datatech-eureka-three" options="-parameters" />
       <module name="datatech-eureka-two" options="-parameters" />

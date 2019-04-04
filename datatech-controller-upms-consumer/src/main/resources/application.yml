@@ -1,0 +1,9 @@
+server:
+  port: 81
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8801
+spring:
+  application:
+    name: upms-consumer

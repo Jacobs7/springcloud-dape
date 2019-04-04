@@ -1,11 +1,15 @@
 server:
-  port: 8882                    #服务端口
+  port: 8882
 spring:
   application:
     name: config-client
   cloud:
     config:
       label: master
-      uri: http://peer1:8888    #配置中心地址
+      uri: http://peer1:8888
       profile: dev
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

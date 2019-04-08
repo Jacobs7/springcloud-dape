@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/datatech-eureka-one" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/datatech-eureka-one/src/main/resources/application-peer2.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/datatech-server-upms-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datatech-server-upms-provider/src/main/resources/application-upms.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/datatech-server-upms-provider/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/datatech-server-upms-provider/src/main/resources/bootstrap.yml" charset="GBK" />
     <file url="PROJECT" charset="GBK" />

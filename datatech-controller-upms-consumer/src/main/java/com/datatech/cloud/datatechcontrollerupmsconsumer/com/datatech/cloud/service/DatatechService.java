@@ -10,6 +10,6 @@ public class DatatechService {
     RestTemplate restTemplate;
 
     public String hiService(String name) {
-        return restTemplate.getForObject("http://SERVICE-HI/hi?name="+name,String.class);
+        return restTemplate.getForObject("http://CONFIG-CLIENT/hi?name="+name,String.class);
     }
 }

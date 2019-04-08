@@ -22,7 +22,7 @@ public class DatatechConfigClientApplication {
     private String hi;
     @RequestMapping("/hi")
     public String sayHello(){
-        return "hello datatech !"+hi+";";
+        return "hello datatech config client!"+hi+";";
     }
 
     @Value("${server.port}")

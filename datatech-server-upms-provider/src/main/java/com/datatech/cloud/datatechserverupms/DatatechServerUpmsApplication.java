@@ -20,7 +20,7 @@ public class DatatechServerUpmsApplication {
     private String hi;
     @RequestMapping("/hi")
     public String sayHello(){
-        return "hello datatech !"+hi+";";
+        return "hello datatech upms client!"+hi+";";
     }
 
     @Value("${server.port}")

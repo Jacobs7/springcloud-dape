@@ -12,6 +12,7 @@
         <module name="datatech-config-client" />
         <module name="datatech-controller-upms-consumer" />
         <module name="datatech-eureka-one" />
+        <module name="datatech-gateway" />
         <module name="datatech-server-upms-provider" />
       </profile>
     </annotationProcessing>

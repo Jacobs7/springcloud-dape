@@ -1,9 +1,9 @@
 eureka:
   client:
-    fetch-registry: true
-    register-with-eureka: true
+    fetch-registry: false
+    register-with-eureka: false
     service-url:
-      defaultZone: http://peer1:8801/eureka
+      defaultZone: http://peer1:8801/eureka/
   instance:
     hostname: peer1
 server:
@@ -18,5 +18,7 @@ spring:
           username: xushifu@live.cn
           password: 198568xz
       label: master
+      discovery:
+        service-id: config-datatech-server
   application:
-    name: config-server
+    name: config-datatech-server

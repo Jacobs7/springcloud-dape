@@ -4,7 +4,7 @@ spring:
   cloud:
     config:
       label: master
-      uri: http://peer1:8888
+      uri: http://peer1:8888/
       profile: dev
       discovery:
         service-id: config-test

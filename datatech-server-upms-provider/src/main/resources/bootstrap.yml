@@ -1,10 +1,10 @@
 spring:
   application:
-    name: config-client
+    name: upms-client
   cloud:
     config:
       label: master
-      uri: http://peer1:8888
+      uri: http://peer1:8888/
       profile: dev
       discovery:
         service-id: config-upms
@@ -13,7 +13,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://peer1:8801/eureka
+      defaultZone: http://peer1:8801/eureka/
   instance:
     hostname: peer1
 management:

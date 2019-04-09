@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/datatech-admin/pom.xml" />
         <option value="$PROJECT_DIR$/datatech-admin-client/pom.xml" />
         <option value="$PROJECT_DIR$/datatech-controller-upms-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/datatech-gateway/pom.xml" />
       </list>
     </option>
   </component>

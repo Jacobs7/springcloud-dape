@@ -12,13 +12,13 @@
         <module name="datatech-config-client" />
         <module name="datatech-controller-upms-consumer" />
         <module name="datatech-eureka-one" />
-        <module name="datatech-gateway" />
         <module name="datatech-server-upms-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="datatech-eureka-three" target="1.8" />
       <module name="datatech-eureka-two" target="1.8" />
+      <module name="datatech-gateway" target="1.8" />
       <module name="datatech-server-client" target="1.8" />
       <module name="datatech-server-upms-consumer" target="1.8" />
     </bytecodeTargetLevel>
@@ -33,6 +33,7 @@
       <module name="datatech-eureka-one" options="-parameters" />
       <module name="datatech-eureka-three" options="-parameters" />
       <module name="datatech-eureka-two" options="-parameters" />
+      <module name="datatech-gateway" options="-parameters" />
       <module name="datatech-server-client" options="-parameters" />
       <module name="datatech-server-upms-consumer" options="-parameters" />
       <module name="datatech-server-upms-provider" options="-parameters" />
